@@ -39,7 +39,7 @@
             this.fullNameTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.reverseNameTextBox = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.SearchIdTextBox = new System.Windows.Forms.TextBox();
             this.searchButton = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.idTextBox = new System.Windows.Forms.TextBox();
@@ -145,12 +145,12 @@
             this.reverseNameTextBox.Size = new System.Drawing.Size(273, 20);
             this.reverseNameTextBox.TabIndex = 9;
             // 
-            // textBox1
+            // SearchIdTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(97, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(114, 20);
-            this.textBox1.TabIndex = 10;
+            this.SearchIdTextBox.Location = new System.Drawing.Point(97, 32);
+            this.SearchIdTextBox.Name = "SearchIdTextBox";
+            this.SearchIdTextBox.Size = new System.Drawing.Size(114, 20);
+            this.SearchIdTextBox.TabIndex = 10;
             // 
             // searchButton
             // 
@@ -243,7 +243,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.SearchIdTextBox);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.fullNameTextBox);
             this.groupBox1.Controls.Add(this.label5);
@@ -302,7 +302,7 @@
         private System.Windows.Forms.TextBox fullNameTextBox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox reverseNameTextBox;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox SearchIdTextBox;
         private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox idTextBox;

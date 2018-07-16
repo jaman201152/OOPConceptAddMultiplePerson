@@ -59,6 +59,20 @@ namespace OOPWalkThrough1
 
         private void searchButton_Click(object sender, EventArgs e)
         {
+            if (people.Count == 0)
+            {
+                MessageBox.Show("Sorry, Empty ListView found!");
+                return;
+            }
+            foreach (Person aPerson in people)
+            {
+                if(aPerson.Id == Convert.ToInt32(SearchIdTextBox.Text))
+                {
+                    fullNameTextBox.Text = aPerson.FirstName + " " + aPerson.MiddleName + " " + aPerson.LastName;
+                    reverseNameTextBox.Text = aPerson.GetReverseFullName;
+                }
+            }
+
 
         }
 

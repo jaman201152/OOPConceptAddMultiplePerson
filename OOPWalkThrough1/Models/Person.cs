@@ -52,5 +52,13 @@ namespace OOPWalkThrough1.Models
         {
             return FirstName+ " "+MiddleName+" "+LastName;
         }
+        public string GetReverseFullName
+        {
+            get { return ReverseFullName();  }
+        }
+        private string ReverseFullName()
+        {
+            return LastName + " " + MiddleName + " " + FirstName;
+        }
     }
 }
