@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPWalkThrough1", "OOPWalkThrough1\OOPWalkThrough1.csproj", "{181F97F0-5B13-44EF-863D-439CFFFF0845}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentInformationUI", "StudentInformationUI\StudentInformationUI.csproj", "{5E06776A-4D06-42B8-AD5E-03A5DC083F91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{181F97F0-5B13-44EF-863D-439CFFFF0845}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{181F97F0-5B13-44EF-863D-439CFFFF0845}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{181F97F0-5B13-44EF-863D-439CFFFF0845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E06776A-4D06-42B8-AD5E-03A5DC083F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E06776A-4D06-42B8-AD5E-03A5DC083F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E06776A-4D06-42B8-AD5E-03A5DC083F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E06776A-4D06-42B8-AD5E-03A5DC083F91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
